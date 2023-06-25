@@ -1,0 +1,11 @@
+void setup() 
+{
+  Serial.begin(9600);          
+}
+void loop() 
+{
+  int a = - 50;
+  int y = abs(a);
+  Serial.println(y);
+  while(1); 
+}
